@@ -4,108 +4,138 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
-
- <!-- первый блок  -->
-
+    <!-- первый блок  -->
+    <img src="./assets/img//52 En Moderna copy@2x.png" alt="" class="phone">
     <div class="container">
       <div class="first-block">
-        <div class="first-block__logo">
-            Axia
-        </div>
+        <div class="first-block__logo">Axia</div>
         <div class="first-block__title">
           <div class="first-block__subtitle">
-            Trade {instrument} commission free
+            Trade <span class="subtitle__code">{instrument}</span> commission
+            free
           </div>
           <div class="first-block__discription">
-            In light of the competition between Pfizer and Moderna to develop the most effective vaccine, 
-            Wall Street analysts expect that the highest target price per share in 12 months could see an increase of up to $185.
+            In light of the competition between Pfizer and Moderna to develop
+            the most effective vaccine, Wall Street analysts expect that the
+            highest target price per share in 12 months could see an increase of
+            up to $185.
           </div>
         </div>
       </div>
       <div class="fixed-block">
-        <div class="fixed-block__form"></div>
-        <imput class="fixed-block__name"></imput>
-        <imput class="fixed-block__email"></imput>
-        <div class="fixed-block__phone-conteiner">
-          <select name="" id="" class="fixed-block__country"></select>
-          <imput class="fixed-block__phone"></imput>
+        <div class="fixed-block__form">
+          <div class="fixed-block__title">0 commission on trading</div>
+          <div class="input-wrapper"><span class='input-title'>Full name</span><input
+            class="fixed-block__name"
+          ></input>
         </div>
-        <div class="fixed-block__discription"></div>
-        <button class="fixed-block__btn"></button>
+        <div class="input-wrapper">
+          <span class='input-title'>Email*</span>
+          <input class="fixed-block__email"></input>
+        </div>
+          <div class="fixed-block__phone-conteiner">
+            <div class="phone-container__select">
+              <img class='phone-container__country-img' src='./assets//icons//united-7-165787.svg'>
+            <select class="fixed-block__country">
+              +1
+              <option> +1</option>
+            </select>
+          </div>
+          <div class="select-wrapper">
+            <span class='phone-title'>Phone</span>
+            <input class="fixed-block__phone"></input>
+            </div>
+          </div>
+          <div class="fixed-block__discription">
+            By creating an account, you agree to our <a class="fixed-block__terms">Terms & Conditions</a>
+          </div>
+          <button class="fixed-block__btn">GET STARTED</button>
+        </div>
       </div>
     </div>
 
-<!-- второй блок -->
-
+    <!-- второй блок -->
+   
     <div class="second-container">
       <div class="second-block">
         <div class="second-block__title">
           The ever-growing performance of Pfizer and Moderna
         </div>
+        <span class="second-block_underline"></span>
         <div class="second-block__text">
-          This is the perfect time to invest in Moderna and Pfizer stocks, given the continued growth performance. With billions of dollars in revenue on the horizon, these biotechnology companies may continue their winning streak in the stock market in 2021. 
-          Trade now and track the performance of these companies, from which experts expect high profits in the short-term.
+          This is the perfect time to invest in Moderna and Pfizer stocks, given
+          the continued growth performance. With billions of dollars in revenue
+          on the horizon, these biotechnology companies may continue their
+          winning streak in the stock market in 2021. Trade now and track the
+          performance of these companies, from which experts expect high profits
+          in the short-term.
         </div>
       </div>
       <div class="row-block">
-        <div class="row-block__text">
-          Trending Trades In {{Country}}
-        </div>
+        <div class="row-block__text">Trending Trades In {{Country}}</div>
+        <div class="row-block__items-wrapper">
         <div class="row-block__about">
           <div class="row-block__icon">
-            <img src="../test_task/assets/icons/800px-Pfizer_logo.svg@2x.png">
+            <img class="row-block__icon-item"src="./assets//icons//800px-Pfizer_logo.svg@2x.png" />
           </div>
           <div class="row-block__discription">
-            PRIZER
-            Aramco, Inc, - Common Stock
-            12%
-            Per week
-            <img src="../test_task/assets/icons/Group 3682.svg">
-          </div>
-        </div>
-        <div class="row-block__about">
-          <div class="row-block__icon">
-            <img src="../test_task/assets/icons/Moderna_Logo@2x.png">
-          </div>
-          <div class="row-block__discription">
-            MODERNA 
-            Gold Stort US Dollar
-            18%
-            Per week
-            <img src="../test_task/assets/icons/Group 3682.svg">
+            <div class="description__title">PRIZER</div>  
+            <div class="description__subtitile">Aramco, Inc, - Common Stock</div>
+            <div class="description__title">12%</div>  
+            <div class="description__percent">Per week</div>
+            <img src="./assets//icons/Group 3682.svg" />
           </div>
         </div>
         <div class="row-block__about">
           <div class="row-block__icon">
-            <img src="../test_task/assets/icons/Group 3003.svg">
+            <img class="row-block__icon-item moderna" src='./assets//icons/Moderna_Logo@2x.png' />
           </div>
           <div class="row-block__discription">
-            EUR/USD
-            Euro vs US Dollar 
-            12%
-            Per week
-            <img src="../test_task/assets/icons/Group 3695.svg">
+            <div class="description__title">Moderna</div>  
+            <div class="description__subtitile">Gold Spot US Dollar</div>
+            <div class="description__title">18%</div>  
+            <div class="description__percent">Per week</div>
+            <img src="./assets//icons/Group 3682.svg" />
           </div>
         </div>
         <div class="row-block__about">
-          <div class="row-block__icon icon-title">
-            <img src="../test_task/assets/icons/Group 2076.svg">
+          <div class="row-block__icon dollar">
+            <img class="row-block__icon-item" src='./assets//icons//Group 3003.svg' />
           </div>
           <div class="row-block__discription">
-            TESLA 
-            Tesla Motors, Inc. - Common Stock 
-            12% 
-            Per week
-            <img src="../test_task/assets/icons/Group 3682.svg">
+            <div class="description__title">EUR/USD</div>  
+            <div class="description__subtitile">EURO vs US Dollar</div>
+            <div class="description__title">12%</div>  
+            <div class="description__percent">Per week</div>
+            <img src="./assets//icons/Group 3682.svg" />
           </div>
         </div>
+        <div class="row-block__about">
+          <div class="row-block__icon  tesla">
+            <img class="row-block__icon-item" src='./assets//icons//Group 2076.svg' />
+          </div>
+          <div class="row-block__discription">
+            <div class="description__title">TESLA</div>  
+            <div class="description__subtitile">Tesla Motors, Inc, - Common Stock</div>
+            <div class="description__title">12%</div>  
+            <div class="description__percent">Per week</div>
+            <img src="./assets//icons/Group 3682.svg" />
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
@@ -117,12 +147,10 @@
           Trade Moderna and Pfizer stocks with Axia Investments commission free
         </div>
         <div class="three-container__discription">
-          Axia Investments offers a reliable and easy to use trading platform commission free to make the most of the market volatility. 
-          You can trade via computer or mobile anytime and from anywhere.
+          Axia Investments offers a reliable and easy to use trading platform
+          commission free to make the most of the market volatility. You can
+          trade via computer or mobile anytime and from anywhere.
         </div>
-      </div>
-      <div class="three-container_img">
-        <img src="../test_task/assets/img/52 En Moderna copy@2x.png">
       </div>
     </div>
 
@@ -132,59 +160,52 @@
       <div class="four-container__subtitle">
         Get useful tools for successful stocks trading
       </div>
+      <div class="four-container_row-wrapper">
       <div class="four-container__row">
-        <div class="four-container__numbers">
-          0.0
-        </div>
-        <div class="four-container__description">
-          Spreads From
-        </div>
+        <div class="four-container__numbers">0.0</div>
+        <div class="four-container__description">Spreads From</div>
       </div>
       <div class="four-container__row">
-        <div class="four-container__numbers">
-          1,000+
-        </div>
-        <div class="four-container__description">
-          Instruments
-        </div>
+        <div class="four-container__numbers">1,000+</div>
+        <div class="four-container__description">Instruments</div>
       </div>
       <div class="four-container__row">
-        <div class="four-container__numbers">
-          30ms
-        </div>
-        <div class="four-container__description">
-          Execution speed
-        </div>
+        <div class="four-container__numbers">30ms</div>
+        <div class="four-container__description">Execution speed</div>
       </div>
       <div class="four-container__row">
-        <div class="four-container__numbers">
-          0
-        </div>
-        <div class="four-container__description">
-          Commission on Trading
-        </div>
+        <div class="four-container__numbers last-number">0</div>
+        <div class="four-container__description">Commission on Trading</div>
       </div>
-      <div class="container-img">
-        <img src="../test_task/assets/icons/Visa-01.svg">
-        <img src="../test_task/assets/icons/mastercard-seeklogo.com.svg">
-        <img src="../test_task/assets/icons/american-01.svg">
-        <img src="../test_task/assets/icons/maestro-seeklogo.com.svg">
-        <img src="../test_task/assets/icons/pngwave@2x.png">
-        <img src="../test_task/assets/icons/bank@2x.png">
+    </div>
+       <div class="container-img">
+        <img src="./assets//icons/Visa-01.svg" />
+        <img src="./assets//icons//mastercard-seeklogo.com.svg" />
+        <img src="./assets//icons//american-01.svg" />
+        <img src="./assets//icons//maestro-seeklogo.com.svg" />
+        <img src="./assets//icons/pngwave@2x.png" />
+        <img src="./assets//icons/bank@2x.png"" />
       </div>
     </div>
 
     <!-- пятый блок -->
 
     <div class="footer">
-        <div class="footer_subtitile">
-          Secured By SSL. Copyright © Revoleto. All rights reserved. 2020
-        </div>
-        <div class="footer_description">
-          Revoleto is a owned and operated by MarketFinancials LTD (reg.number 8413711-1), supervised and regulated by the Seychelles Financial Services Authority (FSA), license number: SD006 CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 
-          You should consider whether you understand how this product works, and whether you can afford to take the high risk of losing your money.  
-          The information on this website is not directed at residents of the United States, nor intended for use by  any person in any country or jurisdiction where such use would be contrary to local law or regulation.
-        </div>
+      <div class="footer_subtitile">
+        Secured By SSL. Copyright © Revoleto. All rights reserved. 2020
+      </div>
+      <div class="footer_description">
+        Revoleto is a owned and operated by MarketFinancials LTD (reg.number
+        8413711-1), supervised and regulated by the Seychelles Financial
+        Services Authority (FSA), license number: SD006 CFDs are complex
+        instruments and come with a high risk of losing money rapidly due to
+        leverage. You should consider whether you understand how this product
+        works, and whether you can afford to take the high risk of losing your
+        money.  The information on this website is not directed at residents of
+        the United States, nor intended for use by  any person in any country or
+        jurisdiction where such use would be contrary to local law or
+        regulation.
+      </div>
     </div>
   </body>
 </html>
