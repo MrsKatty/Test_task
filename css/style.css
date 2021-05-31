@@ -1,18 +1,19 @@
 @charset "UTF-8";
 /* Указываем box sizing */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000032}}
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* Убираем внутренние отступы */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000039}}
 ul[class],
 ol[class] {
-  padding: 0;
-}
+  padding: 0; }
 
 /* Убираем внешние отступы */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000315}}
 body,
 h1,
 h2,
@@ -27,225 +28,225 @@ figcaption,
 blockquote,
 dl,
 dd {
-  margin: 0;
-}
+  margin: 0; }
 
 /* Выставляем основные настройки по-умолчанию для body */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000333}}
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000341}}
 ul[class],
 ol[class] {
-  list-style: none;
-}
+  list-style: none; }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000347}}
 a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
+  text-decoration-skip-ink: auto; }
 
 /* Упрощаем работу с изображениями */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000352}}
 img {
   max-width: 100%;
-  display: block;
-}
+  display: block; }
 
 /* Указываем понятную периодичность в потоке данных у article*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000357}}
 article > * + * {
-  margin-top: 1em;
-}
+  margin-top: 1em; }
 
 /* Наследуем шрифты для инпутов и кнопок */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000362}}
 input,
 button,
 textarea {
   font: inherit;
   background: none;
   text-decoration: none;
-  border: none;
-}
+  border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000371}}
 input:focus {
-  outline: none;
-}
+  outline: none; }
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\0000377}}
   * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+    scroll-behavior: auto !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003101}}
 select {
   background: none;
   text-decoration: none;
   border: none;
   font: normal normal normal 18px Assistant;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003109}}
 .container {
   display: flex;
   height: 1081px;
-  background: url("../assets//img//shutterstock_1870830406.png") no-repeat;
-  background-size: cover;
-}
+  background: url("/assets//img//shutterstock_1870830406.png") no-repeat;
+  background-size: cover; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003115}}
 .first-block {
   height: 100%;
   display: flex;
-  width: 77%;
-}
+  width: 77%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003120}}
 .first-block__logo {
   position: absolute;
   top: 14px;
   left: 20px;
   width: 87px;
-  height: 34px;
-  color: white;
-  font-size: 55px;
-}
+  height: 34px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003127}}
 .first-block__title {
   font-family: Lato;
   display: flex;
   flex-direction: column;
   margin: 196px 0 0 268px;
   width: 540px;
-  height: 260px;
-}
+  height: 260px; }
 
-.modile_title{
-  display: none;
-}
-
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003136}}
 .first-block__subtitle {
   font-size: 55px;
   color: #ffffff;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003141}}
 .subtitle__code {
-  color: #76cde5;
-}
+  color: #76cde5; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003144}}
 .first-block__discription {
   font-size: 20px;
   font-weight: normal;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003149}}
+.tablet_title {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003152}}
+.tablet_second-block {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003155}}
 .fixed-block {
   position: fixed;
   top: 0px;
-  left: 1900px;
+  left: 77%;
   height: 1081px;
-  width: 16%;
-  background: transparent linear-gradient(180deg, #d8e2e6 0%, #ffffff 100%) 0%
-    0% no-repeat padding-box;
-  box-shadow: -15px 3px 46px #00000029;
-}
+  width: 23%;
+  background: transparent linear-gradient(180deg, #d8e2e6 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  box-shadow: -15px 3px 46px #00000029; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003165}}
 .fixed-block__form {
   width: 370px;
   height: 435px;
   display: flex;
   flex-direction: column;
   margin: 202px 0 32px 41px;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003173}}
 .fixed-block__title {
-  font: normal normal bold 14px/18px Assistant;
+  font: normal normal normal 14px/18px Assistant;
   color: #01405a;
-  font-size: 27px;
-}
+  font-size: 27px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003178}}
 .input-wrapper {
   display: flex;
   height: 29px;
   width: 100%;
-  border-bottom: 2px solid #dedede;
-}
+  border-bottom: 2px solid #dedede; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003184}}
 .select-wrapper {
   height: 29px;
   border-bottom: 2px solid #dedede;
-  margin-left: 36px;
-}
+  margin-left: 36px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003189}}
 .input-title {
   color: #01405a;
   width: 126px;
   font-family: Assistant;
   font-weight: normal;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003196}}
 .phone-title {
   color: #01405a;
   width: 81x;
   font-family: Assistant;
   font-weight: normal;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003204}}
 .fixed-block__phone-conteiner {
-  display: flex;
-}
+  display: flex; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003207}}
 .phone-container__select {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #dedede;
-}
+  border-bottom: 2px solid #dedede; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003212}}
 .phone-container__country-img {
   width: 25px;
-  height: 25px;
-}
+  height: 25px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003216}}
 .fixed-block__countrys {
   font: normal normal normal 14px/18px Assistant;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003221}}
 .fixed-block__discription {
   height: 18px;
   font: normal normal normal 14px/18px Assistant;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003226}}
 .fixed-block__terms {
   text-decoration: underline;
-  color: #76cde5;
-}
+  color: #76cde5; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003230}}
 .fixed-block__btn {
   width: 351px;
   height: 55px;
   background: #ffb233 0% 0% no-repeat padding-box;
   border-radius: 10px;
   color: #ffffff;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003238}}
 .second-container {
   background: #ffffff 0% 0% no-repeat padding-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1200px;
-}
+  height: 1200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003245}}
 .second-block {
   margin-top: 71px;
   display: flex;
@@ -253,20 +254,20 @@ select {
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 941px;
-}
+  width: 941px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003254}}
 .second-block__title {
   font: normal normal bold 36px/45px Lato;
   color: #01405a;
-  height: 70px;
-}
+  height: 70px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003259}}
 .second-block_underline {
   width: 375px;
-  border-bottom: 1px solid #01405a;
-}
+  border-bottom: 1px solid #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003263}}
 .second-block__text {
   margin-top: 17.5px;
   width: 734px;
@@ -274,118 +275,120 @@ select {
   color: #01405a;
   text-align: center;
   font: normal normal normal 14px/18px Assistant;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003272}}
 .row-block {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  width: 50%;
-}
+  width: 50%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003278}}
 .row-block__text {
   font: normal normal bold 26px/40px Lato;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003282}}
 .row-block__items-wrapper {
-  display: flex;
-}
+  display: flex; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003285}}
 .row-block__about {
   width: 260px;
   background-color: #faf6f6;
-  margin-right: 19px;
-}
+  margin-right: 19px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003290}}
 .row-block__icon {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
-}
+  height: 100px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003297}}
 .row-block__icon-item {
   width: 104px;
-  height: 62px;
-}
+  height: 62px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003301}}
 .moderna {
-  width: 80%;
-  object-fit: contain;
-}
+  width: 80%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003304}}
 .row-block__discription {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003310}}
+.tablet {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003314}}
 .description__title {
   margin-top: 20px;
   font: normal normal normal 14px/18px Assistant;
   color: #01405a;
   font-size: 18px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003321}}
 .description__subtitile {
   margin-top: 20px;
   font: normal normal normal 14px/18px Assistant;
   color: #01405a;
-  font-size: 18px;
-  text-align: center;
-}
+  font-size: 18px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003327}}
 .description__percent {
-  color: rgba(125, 126, 128, 1);
-  margin-top: 20px;
-}
+  color: #e8e3d9;
+  margin-top: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003331}}
 .dollar {
-  background-color: #dedede;
-}
+  background-color: #dedede; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003334}}
 .tesla {
-  background-color: #e82127;
-}
+  background-color: #e82127; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003337}}
 .three-container {
   height: 595px;
   width: 100%;
-  background: url("../assets/icons/NEW copy.svg") no-repeat;
-}
+  background: url("/assets/icons/NEW copy.svg") no-repeat; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003342}}
 .three-container__text {
   display: flex;
   flex-direction: column;
-  padding: 171px 0 0 327px;
-}
+  padding: 171px 0 0 327px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003347}}
 .three-container__subtitle {
   width: 494px;
   height: 132px;
   font: normal normal bold 36px/44px Lato;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003353}}
 .three-container__discription {
   width: 494px;
   font: normal normal normal 20px/28px Assistant;
   color: #ffffff;
-  padding-top: 28px;
-}
+  padding-top: 28px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003360}}
 .four-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
-}
+  height: 500px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003366}}
 .four-container__subtitle {
   margin-top: 86px;
   font: normal normal bold 36px/40px Lato;
@@ -393,98 +396,802 @@ select {
   justify-content: center;
   align-items: flex-start;
   color: #01405a;
-  height: 84px;
-}
+  height: 84px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003375}}
 .four-container_row-wrapper {
-  display: flex;
-}
+  display: flex; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003378}}
 .four-container__row {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 240px;
-  height: 107px;
-}
+  height: 107px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003386}}
 .four-container__numbers {
   display: flex;
   justify-content: center;
   width: 240px;
   border-right: 1px #24b097 solid;
   font: normal normal normal 60px/78px Assistant;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003394}}
 .four-container__description {
   font: normal normal normal 20px/26px Assistant;
-  color: #01405a;
-}
+  color: #01405a; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003398}}
 .last-number {
-  border: none;
-}
+  border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003401}}
 .container-img {
   margin-top: 162px;
   width: 444px;
   justify-content: space-between;
-  display: flex;
-}
-.container-img img {
-  width: 44px;
-  height: 37px;
-}
+  display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003406}}
+  .container-img img {
+    width: 44px;
+    height: 37px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003411}}
 .footer {
   height: 304px;
   background: #eaebeb;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003418}}
 .footer_subtitile {
   margin: 27px 0 7px 0;
   width: 574px;
   font: normal normal bold 16px/21px Assistant;
   color: #3e4b54;
-  text-align: center;
-}
+  text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003425}}
 .footer_description {
   width: 690px;
   font: normal normal normal 14px/18px Assistant;
   color: #3e4b54;
-  text-align: center;
-}
+  text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003432}}
 .phone {
   position: absolute;
   width: 565px;
   height: 871px;
   top: 1957px;
-  left: 1200px;
-}
+  left: 44.7%; }
 
-@media screen and (max-width: 480px ) {
-  
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003439}}
+.hiden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003443}}
+.mobile_second-block {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003446}}
+.mobile_footer {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003451}}
   .container {
-    background-image: url("../assets/img/shutterstock_1870830406-ar.png");
-  }
+    display: flex;
+    width: 768px;
+    background: url("/assets//img//urn_aaid_sc_US_7cdb4c87-186d-40c8-a48a-ee5a81b9257b.png") no-repeat;
+    background-size: cover;
+    height: 970px; }
 
-  .first-block__subtitle {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003459}}
+  .tablet_second-block {
+    display: block; }
 
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003462}}
+  .tablet_title {
+    display: none; }
 
-.desktop_title {
-  display: none;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003465}}
+  .first-block {
+    flex-direction: column;
+    width: 768px;
+    display: flex;
+    margin: 0; }
 
-.modile_title{
-  display: inherit;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003471}}
+  .first-block__logo {
+    position: static;
+    width: 87px;
+    height: 34px; }
 
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003476}}
+  .first-block__title {
+    margin: 121px 21px 0 21px;
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+    width: 725px;
+    height: 260px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003485}}
+  .desktop_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003489}}
+  .tablet_title {
+    display: block;
+    font-size: 77px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003497}}
+  .tablet {
+    position: absolute;
+    top: 946px;
+    left: 200px;
+    display: flex;
+    flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003505}}
+  .tablet-btn {
+    width: 448px;
+    height: 55px;
+    font: normal normal bold 20px/26px Assistant; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003511}}
+  .tablet__btn-description {
+    text-align: center;
+    font: normal normal normal 16px/21px Assistant;
+    letter-spacing: 0px;
+    color: #01405a;
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003518}}
+  .subtitle__code {
+    color: #76cde5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003521}}
+  .first-block__discription {
+    font-size: 25px;
+    font-weight: normal;
+    color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003526}}
+  .fixed-block {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003529}}
+  .fixed-block__btn {
+    width: 351px;
+    height: 55px;
+    background: #ffb233 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003537}}
+  .second-container {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003544}}
+  .second-block {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 713px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003553}}
+  .desktop_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003556}}
+  .second-block__title {
+    font: normal normal bold 30px/44px Lato;
+    color: #01405a;
+    height: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003561}}
+  .second-block_underline {
+    width: 375px;
+    border-bottom: 1px solid #01405a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003565}}
+  .second-block__text {
+    margin-top: 17.5px;
+    width: 634px;
+    height: 127px;
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003571}}
+  .row-block {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 726px;
+    margin-left: 41px;
+    overflow-x: hidden;
+    flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003580}}
+  .row-block__text {
+    font: normal normal bold 26px/40px Lato;
+    color: #01405a;
+    text-align: center;
+    width: 420px;
+    margin-left: 183px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003587}}
+  .row-block__items-wrapper {
+    display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003590}}
+  .row-block__about {
+    width: 260px;
+    background-color: #faf6f6;
+    margin-right: 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003595}}
+  .row-block__icon {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003602}}
+  .row-block__icon-item {
+    width: 104px;
+    height: 62px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003606}}
+  .moderna {
+    width: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003609}}
+  .row-block__discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003615}}
+  .description__title {
+    margin-top: 20px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #01405a;
+    font-size: 18px;
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003622}}
+  .description__subtitile {
+    margin-top: 20px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #01405a;
+    font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003628}}
+  .description__percent {
+    color: #e8e3d9;
+    margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003632}}
+  .dollar {
+    background-color: #dedede; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003635}}
+  .tesla {
+    background-color: #e82127; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003638}}
+  .three-container {
+    height: 359px;
+    width: 100%;
+    background: url("/assets/icons/NEW copy.svg") no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003643}}
+  .three-container__text {
+    display: flex;
+    flex-direction: column;
+    padding: 76px 0 0 31px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003648}}
+  .three-container__subtitle {
+    width: 319px;
+    height: 77px;
+    font: normal normal bold 30px/41px Lato;
+    color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003654}}
+  .three-container__discription {
+    width: 346px;
+    height: 138px;
+    font: normal normal normal 20px/28px Assistant;
+    color: #ffffff;
+    padding-top: 11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003662}}
+  .four-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003669}}
+  .desktop_tree-block {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003672}}
+  .four-container__subtitle {
+    margin-top: 86px;
+    font: normal normal bold 30px/40px Lato;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #01405a;
+    height: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003682}}
+  .desktop__four-container {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003685}}
+  .four-container_row-wrapper {
+    display: flex;
+    margin-top: 31px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003689}}
+  .four-container__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003697}}
+  .four-container__numbers {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    border-right: 1px #24b097 solid;
+    font: normal normal normal 50px/65px Assistant;
+    color: #01405a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003705}}
+  .four-container__description {
+    font: normal normal normal 20px/26px Assistant;
+    color: #01405a;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003710}}
+  .last-number {
+    border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003713}}
+  .container-img {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003716}}
+  .footer {
+    height: 502px;
+    background: #eaebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003723}}
+  .footer_subtitile {
+    margin: 27px 0 7px 0;
+    width: 574px;
+    font: normal normal bold 16px/21px Assistant;
+    color: #3e4b54;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003730}}
+  .footer_description {
+    width: 690px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #3e4b54;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003737}}
+  .phone {
+    position: absolute;
+    width: 325px;
+    height: 501px;
+    top: 1825px;
+    left: 426px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003744}}
+  .mobile_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003747}}
+  .mobile_second-block {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003750}}
+  .desktop_footer {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003753}}
+  .mobile_footer {
+    display: block; } }
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003759}}
+  .container {
+    display: flex;
+    width: 480px;
+    background: url("/assets//img//urn_aaid_sc_US_7cdb4c87-186d-40c8-a48a-ee5a81b9257b.png") no-repeat;
+    background-size: cover;
+    height: 754px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003767}}
+  .tablet_second-block {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003770}}
+  .first-block {
+    flex-direction: column;
+    width: 480px;
+    display: flex;
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003776}}
+  .first-block__logo {
+    position: static;
+    width: 87px;
+    height: 34px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003781}}
+  .first-block__title {
+    margin: 70px 30px 0 25px;
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 260px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003789}}
+  .tablet_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003793}}
+  .desktop_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003796}}
+  .mobile_title {
+    display: block;
+    font-size: 41px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003804}}
+  .tablet {
+    position: absolute;
+    top: 726px;
+    left: 40px;
+    display: flex;
+    flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003812}}
+  .tablet-btn {
+    width: 400px;
+    height: 55px;
+    font: normal normal bold 20px/26px Assistant; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003818}}
+  .tablet__btn-description {
+    text-align: center;
+    font: normal normal normal 18px/23px Assistant;
+    letter-spacing: 0px;
+    color: #01405a;
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003825}}
+  .first-block__discription {
+    font-size: 21px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003832}}
+  .fixed-block {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003835}}
+  .fixed-block__btn {
+    width: 351px;
+    height: 55px;
+    background: #ffb233 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003843}}
+  .second-container {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003849}}
+  .second-block {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 480px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003858}}
+  .desktop_title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003861}}
+  .second-block__title {
+    font: normal normal bold 32px/44px Lato;
+    height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003865}}
+  .second-block_underline {
+    width: 217px;
+    border-bottom: 1px solid #01405a;
+    margin-top: 22.5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003870}}
+  .second-block__text {
+    margin-top: 21.5px;
+    width: 450px;
+    height: 257px;
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003876}}
+  .row-block {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 446px;
+    margin-left: 21px;
+    overflow-x: hidden;
+    flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003885}}
+  .row-block__text {
+    font: normal normal bold 26px/40px Lato;
+    color: #01405a;
+    text-align: left;
+    width: 446px;
+    margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003892}}
+  .row-block__items-wrapper {
+    display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003895}}
+  .row-block__about {
+    width: 260px;
+    background-color: #faf6f6;
+    margin-right: 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003900}}
+  .row-block__icon {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003907}}
+  .row-block__icon-item {
+    width: 104px;
+    height: 62px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003911}}
+  .moderna {
+    width: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003914}}
+  .row-block__discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003920}}
+  .description__title {
+    margin-top: 20px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #01405a;
+    font-size: 18px;
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003927}}
+  .description__subtitile {
+    margin-top: 20px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #01405a;
+    font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003933}}
+  .description__percent {
+    color: #e8e3d9;
+    margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003937}}
+  .dollar {
+    background-color: #dedede; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003940}}
+  .tesla {
+    background-color: #e82127; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003943}}
+  .three-container {
+    height: 747px;
+    width: 100%;
+    background: url("/assets/icons/NEW copy.svg") no-repeat;
+    background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003949}}
+  .three-container__text {
+    display: flex;
+    flex-direction: column;
+    padding: 42px 0 0 15px;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003955}}
+  .three-container__subtitle {
+    width: 377px;
+    height: 83px;
+    font: normal normal bold 30px/41px Lato;
+    color: #ffffff;
+    margin-left: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003962}}
+  .three-container__discription {
+    width: 450px;
+    height: 110px;
+    font: normal normal normal 20px/28px Assistant;
+    color: #ffffff;
+    padding-top: 11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003970}}
+  .four-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003977}}
+  .desktop_tree-block {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003980}}
+  .four-container__subtitle {
+    margin-top: 71px;
+    font: normal normal bold 32px/40px Lato;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    color: #01405a;
+    height: 79px;
+    width: 378px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003992}}
+  .desktop__four-container {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\00003995}}
+  .four-container_row-wrapper {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 42px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031002}}
+  .four-container__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031010}}
+  .four-container__numbers {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    border-right: 1px #24b097 solid;
+    font: normal normal normal 50px/65px Assistant;
+    color: #01405a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031019}}
+  .none-border {
+    border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031022}}
+  .second-row {
+    margin-top: 61px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031025}}
+  .four-container__description {
+    font: normal normal normal 20px/26px Assistant;
+    color: #01405a;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031030}}
+  .last-number {
+    border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031033}}
+  .container-img {
+    margin-top: 49px;
+    width: 450px;
+    justify-content: space-between;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031038}}
+    .container-img img {
+      width: 51px;
+      height: 34px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031043}}
+  .footer {
+    height: 611px;
+    background: #eaebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031050}}
+  .footer_subtitile {
+    margin: 27px 0 7px 0;
+    width: 419px;
+    font: normal normal bold 16px/21px Assistant;
+    color: #3e4b54;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031057}}
+  .footer_description {
+    width: 433px;
+    height: 450px;
+    font: normal normal normal 14px/18px Assistant;
+    color: #3e4b54;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031064}}
+  .desktop_footer {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Uladzislau_Kutarkin\/Desktop\/Test_task\/css\/style\.scss}line{font-family:\000031067}}
+  .phone {
+    position: absolute;
+    width: 325px;
+    height: 501px;
+    top: 2000px;
+    left: 74px; } }
+
+/*# sourceMappingURL=style.css.map */
